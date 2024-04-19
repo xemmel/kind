@@ -1,6 +1,11 @@
 {
     "name": "Kind Space",
     // The dockerfile will be at te root of the project
-    "build": {"dockerfile": "dockerfile"}
+    "build": {"dockerfile": "dockerfile"},
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+          "version": "2.10.2"
+        }
+      }
     // Your code path from the .devcontainer directory
 }
