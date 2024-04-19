@@ -1,11 +1,13 @@
 {
-    "name": "Kind Space",
-    // The dockerfile will be at te root of the project
-    "build": {"dockerfile": "dockerfile"},
+    "name": "my-project-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Any generic, debian-based image.
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker": {
-          "version": "2.10.2"
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "version": "latest",
+            "moby": true
         }
-      }
-    // Your code path from the .devcontainer directory
+    }
 }
