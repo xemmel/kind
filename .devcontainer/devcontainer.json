@@ -1,0 +1,6 @@
+{
+    "name": "Kind Space",
+    // The dockerfile will be at te root of the project
+    "build": {"dockerfile": "dockerfile"}
+    // Your code path from the .devcontainer directory
+}
