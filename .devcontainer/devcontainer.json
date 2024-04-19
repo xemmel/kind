@@ -3,7 +3,7 @@
     // The dockerfile will be at te root of the project
     "build": {"dockerfile": "dockerfile"},
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+        "ghcr.io/devcontainers/features/docker-in-docker": {
           "version": "2.10.2"
         }
       }
