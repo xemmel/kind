@@ -6,8 +6,7 @@
             "version": "1.18"
         },
         "ghcr.io/devcontainers/features/docker-in-docker:2": {
-            "version": "2.10.2",
-            "moby": true
+            "version": "2.10.2"
         },
         "ghcr.io/mpriscella/features/kind:1": {
             "version": "1.0.1"
